@@ -1,9 +1,12 @@
-// import React from 'react';
+import React from 'react';
+import Clock from './components/Clock';
 
-// class App extends React.PureComponent {
-//     render() {
-//         return <div>Baz</div>;
-//     }
-// }
+function App() {
+    return (
+        <div>
+            <Clock local="bn-BD" />
+        </div>
+    );
+}
 
-// export default App;
+export default App;
